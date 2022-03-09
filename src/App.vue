@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div id="estilos">
     <h1 class="display-1">{{ encabezado }}</h1>
     <table class="table table-striped">
       <thead>
@@ -38,7 +38,7 @@ export default {
   /* Van las variables */
   data() {
     return {
-      encabezado: "Estadistica Covid",
+      encabezado: "Estadistica Covid 2021 US",
       muestreocovid: [],
     };
   },
@@ -63,7 +63,7 @@ export default {
 </script>
 
 <style>
-#app {
+#estilos {
   color: darkorchid;
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
